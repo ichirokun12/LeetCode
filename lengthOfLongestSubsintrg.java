@@ -2,7 +2,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 class Solution {
-    public int lengthOfLongestSubstring(String s) {
+    public int lengthOfLongestSubsintrg(String s) {
         int left = 0, right = 0;
         Set<Character> seen = new HashSet();
         int max = 0;
